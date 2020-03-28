@@ -11,9 +11,11 @@ while playerhp > 0:
         playerhp = 30
     print("Enemy strikes for", dmg, "Point of damage. Current HP is", playerhp)
 
-    if playerhp == 30:
-        print("Minimum Health ")
-        break
+    if playerhp > 30:
+        continue
 
-print("Test pull")
+    print("Minimum Health ")
+    break
+
+
 
